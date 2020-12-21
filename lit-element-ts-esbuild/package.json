@@ -10,7 +10,7 @@
   "scripts": {
     "start": "web-dev-server --open demo/ --node-resolve",
     "start:watch": "web-dev-server --open demo/ --node-resolve --watch",
-    "test": "web-test-runner test/**/*.test.ts --node-resolve",
+    "test": "web-test-runner test/**/*.test.ts",
     "test:watch": "web-test-runner test/**/*.test.ts --node-resolve --watch",
     "build": "tsc",
     "build:watch": "tsc --watch"
