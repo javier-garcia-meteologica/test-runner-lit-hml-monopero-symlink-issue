@@ -12,8 +12,8 @@ export class MyElement extends MyParent {
     }
     firstUpdated(changedProps) {
         var _a;
-        super.firstUpdated(changedProps);
         console.log((_a = this.shadowRoot) === null || _a === void 0 ? void 0 : _a.innerHTML);
+        super.firstUpdated(changedProps);
     }
     render() {
         return html `
